@@ -48,7 +48,7 @@ ApplicationWindow {
                 text: qsTr("Login")
                 Layout.fillWidth: true
                 onClicked: {
-                    if(usernameField.text === "" || passwordField.text === "") {
+                    if (usernameField.text === "" || passwordField.text === "") {
                         console.log("Please fill username and password")
                     } else {
                         console.log("Logging in with", usernameField.text)
