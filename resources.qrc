@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>qml/login/Main.qml</file>
+        <file>qml/chatMain/MainWindowOfChat.qml</file>
     </qresource>
 </RCC>
